@@ -1,0 +1,3 @@
+javac GritingService.java
+jar cvfn gs.jar MAINFAST.MF GritingService.class
+java - jar gs.jar

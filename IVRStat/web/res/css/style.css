@@ -1,0 +1,119 @@
+HTML,BODY {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font: 14px "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	border: 0px white;
+	text-align: center;
+}
+
+HTML IMG {
+	border: none;
+}
+
+DIV#container {
+  width: 1000px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: left;
+}
+
+DIV#container #header {
+  width: 1000px;
+  height: 200px;
+}
+
+DIV#header #logo {
+  width: 1000px;
+  height: 150px;
+}
+
+DIV#header #top_menu {
+  width: 700px;
+  margin-left: auto ;
+  margin-right: auto ;
+  height: 50px;
+}
+
+DIV#container #navigate {
+	width: 200px;
+	float: left;
+}
+
+DIV.menu_row1 {
+	width: 160px;
+	line-height: 1.5em;
+	float: left;
+	background: white;
+	color: blue;
+	cursor: pointer;
+	margin-top:5px;
+}
+
+DIV.menu_row2 {
+	width: 160px;
+	line-height: 1.5em;
+	float: left;
+	background: #DDDDDD;
+	margin-top:5px;
+	color: blue;
+	cursor: pointer;
+}
+
+DIV.menu_section {
+	width: 190px;
+	line-height: 1.5em;
+	float: left;
+	background: navy;
+	color: white;
+	margin-top: 10px;
+	/*cursor: pointer;*/
+}
+
+DIV.menu_row1:HOVER{
+	text-decoration: underline;
+}
+DIV.menu_row1:ACTIVE{
+	color: green;
+}
+DIV.menu_row1:VISITED{
+	color: green;
+}
+
+DIV.menu_row2:HOVER {
+	text-decoration: underline;
+}
+DIV.menu_row2:ACTIVE  {
+	color: green;
+}
+DIV.menu_row2:VISITED  {
+	color: green;
+}
+
+
+DIV#container #content {
+	width: 800px;
+	float: left;
+	height: 450px;
+	line-height: 400px;
+	text-align: center;
+}
+
+DIV#content #time_selector {
+	width: 800px;
+	height: 50px;
+	float: left;
+	line-height: 1.4em;
+	text-align: right;
+}
+
+DIV#content .stat {
+	width: 800px;
+	height: 400px;
+	float: left;
+}
+
+A{
+	text-decoration: none;
+	color: #8080FF;
+}
