@@ -1,0 +1,26 @@
+package classTank;
+
+public class PrintTankInfo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Tank[] tanks = new Tank[5];		
+		
+		
+		//classTank.Tank t = new Tank();	 ==
+Tank t = new Tank(); 
+Tank t2 = new Tank("gold");
+
+//t.color="green";
+System.out.println(t.color);
+System.out.println(t.crew);
+System.out.println(t.maxSpid);
+System.out.println(t2.color);
+
+
+	}
+
+}
