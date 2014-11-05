@@ -23,8 +23,10 @@ public class Tank {
 	Tank(String color){
 		this.color=color;
 	}
-	public Tank(String string, int i, int j) {
-		// TODO Auto-generated constructor stub
+	 Tank(String col, int i, int j) {
+		this.color=col;
+		this.crew=i;
+		this.maxSpid=j;
 	}
 
 }
