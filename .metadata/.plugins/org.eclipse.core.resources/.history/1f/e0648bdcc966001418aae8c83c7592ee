@@ -1,0 +1,8 @@
+package BattleFieldTemplate;
+
+public class Launcher {
+int i;
+	Launcher() {
+		
+	}
+}

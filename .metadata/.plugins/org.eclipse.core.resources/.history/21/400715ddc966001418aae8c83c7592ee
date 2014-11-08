@@ -1,0 +1,13 @@
+package BattleFieldTemplate;
+
+public class Tank {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

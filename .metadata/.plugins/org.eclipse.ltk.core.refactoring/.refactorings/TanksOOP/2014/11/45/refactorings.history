@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;BattleFieldTemplate.BattleField&apos; to &apos;ObjOrientBaFi&apos;&#x0D;&#x0A;- Original project: &apos;TanksOOP&apos;&#x0D;&#x0A;- Original element: &apos;BattleFieldTemplate.BattleField&apos;&#x0D;&#x0A;- Renamed element: &apos;BattleFieldTemplate.ObjOrientBaFi&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BattleField&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;BattleFieldTemplate{BattleField.java[BattleField" matchStrategy="1" name="ObjOrientBaFi" qualified="false" references="true" similarDeclarations="false" stamp="1415396226629" textual="false" version="1.0"/>
+</session>

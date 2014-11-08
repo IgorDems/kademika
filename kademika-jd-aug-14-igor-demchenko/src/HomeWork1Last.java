@@ -1,4 +1,5 @@
-public class HomeWork1Last {
+
+public class HomeWork1Last{
 
 	/**
 	 * @param args

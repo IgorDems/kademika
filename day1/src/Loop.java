@@ -13,7 +13,7 @@ public class Loop {
 			System.out.print(i++);
 		}
 	}
-	
+
 	public static void loopSys(int args) {
 		// TODO Auto-generated method stub
 		int i = 0;
@@ -21,5 +21,5 @@ public class Loop {
 			System.out.print(i++);
 		}
 	}
-	
+
 }

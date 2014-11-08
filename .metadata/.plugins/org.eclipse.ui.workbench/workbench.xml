@@ -8,7 +8,7 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="153" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
@@ -22,6 +22,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -39,21 +40,23 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tank.java" partName="Tank.java" path="C:/WS/GitHub/IgorDems/IgorDems/IgorDems/day4/src/classTank/Tank.java" title="Tank.java" tooltip="day4/src/classTank/Tank.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day4/src/classTank/Tank.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="270" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Move.java" partName="Move.java" path="C:/WS/GitHub/IgorDems/IgorDems/IgorDems/day2/src/Move.java" title="Move.java" tooltip="day2/src/Move.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day2/src/Move.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="114" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintTankInfo.java" partName="PrintTankInfo.java" path="C:/WS/GitHub/IgorDems/IgorDems/IgorDems/day4/src/classTank/PrintTankInfo.java" title="PrintTankInfo.java" tooltip="day4/src/classTank/PrintTankInfo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day4/src/classTank/PrintTankInfo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="875" selectionTopPixel="159"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleFieldTemplate.java" partName="BattleFieldTemplate.java" path="C:/WS/GitHub/IgorDems/IgorDems/IgorDems/day2/src/day2/BattleFieldTemplate.java" title="BattleFieldTemplate.java" tooltip="day2/src/day2/BattleFieldTemplate.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day2/src/day2/BattleFieldTemplate.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dim.java" partName="Dim.java" path="C:/WS/GitHub/IgorDems/IgorDems/IgorDems/day3/src/Dim.java" title="Dim.java" tooltip="day3/src/Dim.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day3/src/Dim.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="527" selectionTopPixel="945"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleFieldTemplate2Goal.java" partName="BattleFieldTemplate2Goal.java" path="C:/WS/GitHub/IgorDems/IgorDems/IgorDems/day2/src/day2/BattleFieldTemplate2Goal.java" title="BattleFieldTemplate2Goal.java" tooltip="day2/src/day2/BattleFieldTemplate2Goal.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day2/src/day2/BattleFieldTemplate2Goal.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="424" selectionTopPixel="1530"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
 <viewState/>
 </view>
@@ -91,6 +94,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -331,6 +337,7 @@
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -449,159 +456,170 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day4/src/classTank/Tank.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day4/src/classTank/PrintTankInfo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day33/src/BattleFieldTemplate2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TanksOOP/src/BattleFieldTemplate/BattleField.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TanksOOP/src/BattleFieldTemplate/Tank.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TanksOOP/src/BattleFieldTemplate/Bullet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TanksOOP/src/BattleFieldTemplate/ActionField.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TanksOOP/src/BattleFieldTemplate/Launcher.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day3/src/Dim.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kademika-jd-aug-14-igor-demchenko/src/HomeWork1Last.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day2/src/Move.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=IVRStat/C:\/Program Files\/Java\/jre6\/lib\/rt.jar&lt;java.security(AccessController.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day2/src/Countdown.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day2/src/day2/BattleFieldTemplate.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day2/src/day2/BattleFieldTemplate2Goal.java"/>
 </editors>
-<item historyLabel="PrintTankInfo.java" index="1">
+<item historyLabel="PrintTankInfo.java" index="0">
+<position info="not_deleted" x="858" y="0"/>
+</item>
+<item historyLabel="BattleFieldTemplate2.java" index="1">
+<position info="not_deleted" x="505" y="0"/>
+</item>
+<item historyLabel="BattleField.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Tank.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Bullet.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ActionField.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Launcher.java" index="6">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="Launcher.java" index="6">
+<position info="not_deleted" x="45" y="8"/>
+</item>
+<item historyLabel="Launcher.java" index="6">
+<position info="not_deleted" x="75" y="0"/>
+</item>
+<item historyLabel="Launcher.java" index="6">
+<position info="not_deleted" x="86" y="0"/>
+</item>
+<item historyLabel="Launcher.java" index="6">
+<position info="not_deleted" x="66" y="10"/>
+</item>
+<item historyLabel="Launcher.java" index="6">
+<position info="not_deleted" x="89" y="0"/>
+</item>
+<item historyLabel="Launcher.java" index="6">
+<position info="not_deleted" x="66" y="8"/>
+</item>
+<item historyLabel="Launcher.java" index="6">
 <position/>
 </item>
-<item historyLabel="Tank.java" index="0">
-<position info="not_deleted" x="270" y="0"/>
+<item historyLabel="Launcher.java" index="6">
+<position info="not_deleted" x="66" y="8"/>
 </item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="899" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="768" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="772" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="683" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="437" y="37"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="596" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="437" y="37"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="804" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="437" y="37"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="766" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="437" y="37"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="836" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="828" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="891" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="820" y="7"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="768" y="12"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="874" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="765" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="889" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="763" y="0"/>
-</item>
-<item historyLabel="Dim.java" index="2">
+<item historyLabel="Dim.java" index="7">
 <position info="not_deleted" x="527" y="0"/>
 </item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="763" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="435" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="838" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="836" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="881" y="0"/>
-</item>
-<item historyLabel="PrintTankInfo.java" index="1">
+<item historyLabel="Launcher.java" index="6">
 <position/>
 </item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="875" y="0"/>
+<item historyLabel="BattleField.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PrintTankInfo.java" index="1">
+<item historyLabel="HomeWork1Last.java" index="8">
+<position info="not_deleted" x="2" y="0"/>
+</item>
+<item historyLabel="HomeWork1Last.java" index="8">
+<position info="not_deleted" x="28" y="0"/>
+</item>
+<item historyLabel="HomeWork1Last.java" index="8">
+<position info="not_deleted" x="87" y="6"/>
+</item>
+<item historyLabel="BattleField.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="162" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="385" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="71" y="6"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="167" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="27" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="162" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="AccessController.class" index="10">
 <position/>
 </item>
-<item historyLabel="PrintTankInfo.java" index="1">
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="AccessController.class" index="10">
 <position/>
 </item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="766" y="0"/>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="0" y="1"/>
 </item>
-<item historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="784" y="0"/>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="13" y="4"/>
 </item>
-<item active="true" historyLabel="PrintTankInfo.java" index="1">
-<position info="not_deleted" x="828" y="0"/>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="116" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="110" y="0"/>
+</item>
+<item historyLabel="Countdown.java" index="11">
+<position info="not_deleted" x="243" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="27" y="0"/>
+</item>
+<item historyLabel="Countdown.java" index="11">
+<position info="not_deleted" x="243" y="0"/>
+</item>
+<item historyLabel="Move.java" index="9">
+<position info="not_deleted" x="114" y="0"/>
+</item>
+<item historyLabel="BattleFieldTemplate.java" index="12">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="BattleFieldTemplate2Goal.java" index="13">
+<position info="not_deleted" x="424" y="0"/>
+</item>
+<item historyLabel="AccessController.class" index="10">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item active="true" historyLabel="BattleFieldTemplate2Goal.java" index="13">
+<position info="not_deleted" x="424" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -621,44 +639,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dim.java" tooltip="day3/src/Dim.java">
-<persistable path="/day3/src/Dim.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AccessController.class" tooltip="java.security.AccessController">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=IVRStat/C:\/Program Files\/Java\/jre6\/lib\/rt.jar&lt;java.security(AccessController.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleFieldTemplate2Goal.java" tooltip="day2/src/day2/BattleFieldTemplate2Goal.java">
+<persistable path="/day2/src/day2/BattleFieldTemplate2Goal.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleFieldTemplate.java" tooltip="day2/src/day2/BattleFieldTemplate.java">
+<persistable path="/day2/src/day2/BattleFieldTemplate.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Countdown.java" tooltip="day2/src/Countdown.java">
+<persistable path="/day2/src/Countdown.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Move.java" tooltip="day2/src/Move.java">
 <persistable path="/day2/src/Move.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Countdown.java" tooltip="day2/src/Countdown.java">
-<persistable path="/day2/src/Countdown.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HomeWork1Last.java" tooltip="kademika-jd-aug-14-igor-demchenko/src/HomeWork1Last.java">
+<persistable path="/kademika-jd-aug-14-igor-demchenko/src/HomeWork1Last.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Launcher.java" tooltip="TanksOOP/src/BattleFieldTemplate/Launcher.java">
+<persistable path="/TanksOOP/src/BattleFieldTemplate/Launcher.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ActionField.java" tooltip="TanksOOP/src/BattleFieldTemplate/ActionField.java">
+<persistable path="/TanksOOP/src/BattleFieldTemplate/ActionField.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Bullet.java" tooltip="TanksOOP/src/BattleFieldTemplate/Bullet.java">
+<persistable path="/TanksOOP/src/BattleFieldTemplate/Bullet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tank.java" tooltip="TanksOOP/src/BattleFieldTemplate/Tank.java">
+<persistable path="/TanksOOP/src/BattleFieldTemplate/Tank.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleField.java" tooltip="TanksOOP/src/BattleFieldTemplate/BattleField.java">
+<persistable path="/TanksOOP/src/BattleFieldTemplate/BattleField.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleFieldTemplate2.java" tooltip="day33/src/BattleFieldTemplate2.java">
+<persistable path="/day33/src/BattleFieldTemplate2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dim.java" tooltip="day3/src/Dim.java">
+<persistable path="/day3/src/Dim.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MichaelJordan.java" tooltip="day1/src/MichaelJordan.java">
 <persistable path="/day1/src/MichaelJordan.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LangsIgor.java" tooltip="day1/src/LangsIgor.java">
 <persistable path="/day1/src/LangsIgor.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Loop.java" tooltip="day1/src/Loop.java">
-<persistable path="/day1/src/Loop.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintTankInfo.java" tooltip="day4/src/classTank/PrintTankInfo.java">
-<persistable path="/day4/src/classTank/PrintTankInfo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tank.java" tooltip="day4/src/classTank/Tank.java">
-<persistable path="/day4/src/classTank/Tank.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChartMacker.java" tooltip="IVRStat/src/ks/common/ChartMacker.java">
-<persistable path="/IVRStat/src/ks/common/ChartMacker.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sort.java" tooltip="day3/src/Sort.java">
-<persistable path="/day3/src/Sort.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleFieldTemplate2.java" tooltip="day33/src/BattleFieldTemplate2.java">
-<persistable path="/day33/src/BattleFieldTemplate2.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HW3.java" tooltip="day3/src/HW3.java">
-<persistable path="/day3/src/HW3.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleFieldTemplate2.java" tooltip="day3/src/BattleFieldTemplate2.java">
-<persistable path="/day3/src/BattleFieldTemplate2.java"/>
 </file>
 </mruList>
 </workbench>
