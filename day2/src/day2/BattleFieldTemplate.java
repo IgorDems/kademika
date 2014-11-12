@@ -73,6 +73,22 @@ public class BattleFieldTemplate extends JPanel {
 				|| (direction == 4 && tankX >= 512)) {
 			System.out.println("illegal move direction:" + direction + " Y="
 					+ tankY + " X=" + tankX);
+			if (tankX>=512){
+				//tankX=-64;
+				direction=3;
+			}
+			else if (tankX<=0){
+				//tankX=+64;
+				direction=1;
+			}
+			else if (tankY<=0){
+				//tankY=+64;
+				direction=1;
+			}
+			else if (tankY>=512){
+				//tankY=-64;
+				direction=2;
+			}
 		} else if (direction == 1) {
 			tankY -= step;
 			System.out.println("[down move] direction:" + direction + " Y="
@@ -92,6 +108,7 @@ public class BattleFieldTemplate extends JPanel {
 		}
 		repaint();
 		Thread.sleep(225);
+		
 	}
 	
 	static String getQuadrantXY(String v, String h) {

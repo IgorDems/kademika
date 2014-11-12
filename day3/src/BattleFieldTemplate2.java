@@ -46,13 +46,13 @@ public class BattleFieldTemplate2 extends JPanel {
 	 * Write your code here.
 	 */
 	void runTheGame() throws Exception {
-		// moveToQuadrant(1, 2);
-		// Thread.sleep(2000);
-		// moveToQuadrant(3, 3);
-		// Thread.sleep(2000);
-		// moveToQuadrant(1, 4);
-		// Thread.sleep(2000);
-		// moveToQuadrant(9, 8);
+		 moveToQuadrant(1, 2);
+		 Thread.sleep(2000);
+		 moveToQuadrant(3, 3);
+		 Thread.sleep(2000);
+		 moveToQuadrant(1, 4);
+		 Thread.sleep(2000);
+		 moveToQuadrant(9, 8);
 		int turn = (4);
 
 		while (true) {
