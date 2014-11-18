@@ -1,0 +1,40 @@
+package TanksObj;
+
+public class Tank {
+	
+	private int speed =10;
+	private int diraction;
+	private BattleField  bf;
+	private ActionField  af;
+	private int x;
+	private int y;
+	
+	public Tank(ActionField af,BattleField bf){
+		this(af, bf, 128, 512, 1);
+	}
+	
+	public Tank(ActionField af,BattleField bf,int x,int y,int diraction){
+		this.af=af;
+		this.bf=bf;
+		this.x=x;
+		this.y=y;
+		this.diraction=diraction;
+	}
+	
+	public void turn(int direction)throws Exception{
+		this.diraction=diraction;
+		af.processTurn(this);
+	}
+	
+	public void move()throws Exception{
+		af.processMove(this);
+		
+	}
+	public void fire()throws Exception{
+		Bullet bullet= new Bullet(x+25, y+25, direction);
+		af.processFire(bullet);
+		
+	}
+	
+	
+}

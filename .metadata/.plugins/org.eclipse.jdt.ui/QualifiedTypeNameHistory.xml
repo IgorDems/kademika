@@ -12,4 +12,8 @@
 <fullyQualifiedTypeName name="javax.swing.JPanel"/>
 <fullyQualifiedTypeName name="javax.swing.WindowConstants"/>
 <fullyQualifiedTypeName name="TanksObj.ActionField"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="TanksObj.Bullet"/>
+<fullyQualifiedTypeName name="TanksObj.Tank"/>
+<fullyQualifiedTypeName name="TanksObj.BattleField"/>
 </qualifiedTypeNameHistroy>
