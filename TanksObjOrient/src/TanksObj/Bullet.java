@@ -2,7 +2,7 @@ package TanksObj;
 //import TanksObj.BattleFieldTemplate2;
 public class Bullet {
 
-	int speed=5;
+	int speed=15;
 	int x;// = tankX + 25;
 	int y;// = tankY + 25;
 	int direction;

@@ -10,12 +10,29 @@ import javax.swing.WindowConstants;
 
 public class ActionField extends JPanel {
 	private boolean COLORDED_MODE = false;
-	private BattleField battlefield;
+
+	private BattleField battleField;
 	private Tank tank;
 	private Bullet bullet;
 
 	void runTheGame() throws Exception {
-
+tank.fire();
+tank.fire();
+tank.fire();
+tank.fire();
+tank.fire();
+tank.fire();
+//tank.move();
+//tank.turn(4);
+tank.turn(1);
+tank.move();
+//tank.turn(2);
+//tank.fire();
+tank.move();
+tank.move();
+tank.move();
+tank.move();
+tank.turn(1);
 	}
 
 	public void processTurn(Tank tank) throws Exception {
@@ -99,8 +116,8 @@ public class ActionField extends JPanel {
 		int y = Integer.parseInt(coordinates.split("_")[0]);
 		int x = Integer.parseInt(coordinates.split("_")[1]);
 		if (y >= 0 && y < 9 && x >= 0 && x < 9) {
-			if (!BattleField.scanQuadrant(y, x).trim().isEmpty()) {
-				BattleField.updateQuadrant(y, x, "");
+			if (!battleField.scanQuadrant(x, y).trim().isEmpty()) {
+				battleField.updateQuadrant(y, x, "");
 				return true;
 			}
 		}
@@ -116,14 +133,14 @@ public class ActionField extends JPanel {
 	}
 
 	public ActionField() throws Exception {
-		battlefield = new BattleField();
+		battleField = new BattleField();
 		tank = new Tank(this, battleField);
 		bullet = new Bullet(-100, -100, -1);
 
 		JFrame frame = new JFrame("BATTLE FIELD, DAY 2");
 		frame.setLocation(750, 150);
-		frame.setMinimumSize(new Dimension(BattleField.getBFWidth(),
-				BattleField.getBFHeight() + 22));
+		frame.setMinimumSize(new Dimension(battleField.getBFWidth(),
+				battleField.getBFHeight() + 22));
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		frame.getContentPane().add(this);
 		frame.pack();
