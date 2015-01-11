@@ -16,23 +16,24 @@ public class ActionField extends JPanel {
 	private Bullet bullet;
 
 	void runTheGame() throws Exception {
-tank.fire();
-tank.fire();
-tank.fire();
-tank.fire();
-tank.fire();
-tank.fire();
-//tank.move();
-//tank.turn(4);
-tank.turn(1);
-tank.move();
-//tank.turn(2);
-//tank.fire();
-tank.move();
-tank.move();
-tank.move();
-tank.move();
-tank.turn(1);
+		tank.turn(1);
+		tank.fire();
+		tank.fire();
+		tank.fire();
+		tank.fire();
+		tank.fire();
+		tank.fire();
+		tank.move();
+		tank.turn(4);
+		tank.turn(1);
+		tank.move();
+		tank.turn(2);
+		tank.fire();
+		tank.move();
+		tank.move();
+		tank.move();
+		tank.move();
+		tank.turn(1);
 	}
 
 	public void processTurn(Tank tank) throws Exception {
@@ -90,16 +91,24 @@ tank.turn(1);
 	public void processFire(Bullet bullet) throws Exception {
 		this.bullet = bullet;
 		int step = 1;
-		while ((bullet.getX() < -14 && bullet.getX() < 590)
-				&& (bullet.getY() < -14 && bullet.getY() < 590)) {
+		while ((bullet.getX() > -14 && bullet.getX() < 590)
+				&& (bullet.getY() > -14 && bullet.getY() < 590)) {
 			if (bullet.getDirection() == 1) {
 				bullet.updateY(-step);
+//				System.out.println("[move bullet] direction: " + " bullet.getX(): "
+//						+ bullet.getX() + ", bullet.getY(): " + bullet.getY());
 			} else if (bullet.getDirection() == 2) {
 				bullet.updateY(step);
+//				System.out.println("[move bullet] direction: " + " bullet.getX(): "
+//						+ bullet.getX() + ", bullet.getY(): " + bullet.getY());
 			} else if (bullet.getDirection() == 3) {
 				bullet.updateX(-step);
+//				System.out.println("[move bullet] direction: " + " bullet.getX(): "
+//						+ bullet.getX() + ", bullet.getY(): " + bullet.getY());
 			} else {
 				bullet.updateX(step);
+//				System.out.println("[move bullet] direction: " + " bullet.getX(): "
+//						+ bullet.getX() + ", bullet.getY(): " + bullet.getY());
 			}
 			if (processInterception()) {
 				bullet.destroy();
@@ -111,7 +120,7 @@ tank.turn(1);
 
 	}
 
-	private boolean processInterception() {
+	private boolean processInterception()  {
 		String coordinates = getQuadrant(bullet.getX(), bullet.getY());
 		int y = Integer.parseInt(coordinates.split("_")[0]);
 		int x = Integer.parseInt(coordinates.split("_")[1]);
